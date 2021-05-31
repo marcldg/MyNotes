@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDE8DE"
+    android:padding="20sp">
+
+
+    <EditText
+        android:id="@+id/noteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_a_title"
+        android:inputType="textMultiLine"
+        android:textColor="#43A047"
+        android:textColorHint="#00897B"
+        android:autofillHints="">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/noteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/content_goes_here"
+        android:inputType="textMultiLine"
+        android:minLines="15"
+        android:textColor="#43A047"
+        android:textColorHint="#00897B"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/saveNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save"
+        app:backgroundTint="#00ACC1" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

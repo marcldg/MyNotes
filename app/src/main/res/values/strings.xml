@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="create_a_new_note">CREATE A NEW NOTE</string>
+    <string name="show_all_notes">SHOW ALL NOTES</string>
+    <string name="todo">TODO</string>
+    <string name="save">SAVE</string>
+    <string name="enter_a_title">Enter a Title</string>
+    <string name="content_goes_here">Content goes here...</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="content_goes_here">Content goes here...</string>
+    <string name="no_notes_present">No Notes Present</string>
+</resources>
